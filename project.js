@@ -7,6 +7,7 @@ const countselect = document.getElementById("count-select");
 const ratioselect = document.getElementById("ratio-select");
 const gridGallery = document.querySelector(".gallery-grid")
 const API_KEY = "paste here apikey";//api_key 
+console.log("past the hugging api key")
 
 
 
@@ -145,4 +146,5 @@ promptbtn.addEventListener("click", () => {
     promptinput.focus();
 })
 promptform.addEventListener("submit", handleFormSubmit)
+
 themeToggle.addEventListener("click", toggleTheme)
